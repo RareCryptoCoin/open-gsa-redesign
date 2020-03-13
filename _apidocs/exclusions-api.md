@@ -323,40 +323,41 @@ Note: Public Response for one record is provided as an example <br>
 <code>
 <pre>
 {
-  "totalRecords": 53,
-  "excludedEntity": [
-      {
-        "exclusionDetails": {
-          "classificationType": "Firm",
-          "exclusionType": "Ineligible (Proceedings Completed)",
-          "exclusionProgram": "Reciprocal",
-          "excludingAgencyCode": "ARMY",
-          "excludingAgencyName": "DEPT OF THE ARMY"
-        },
-        "exclusionIdentification": {
-          "ueiSAM": "DLNLH2TNC7W4",
-          "ueiDUNS": "689515241",
-          "entityEFTIndicator": "Currently Not Available",
-          "cageCode": "741CF",
-          "npi": "",
-          "prefix": "",
-          "firstName": "",
-          "middleName": "",
-          "lastName": "",
-          "suffix": "",
-          "name": "ENOCH INTERNATIONAL"
-        },
-        "exclusionAddress": {
-          "addressLine1": "20 - 4 HOENAMU-RO 13-GIL, YONGSAN-GU",
-          "addressLine2": "",
-          "city": "SEOUL",
-          "stateOrProvinceCode": "",
-          "zipCode": "04344",
-          "zipCodePlus4": null,
-          "countryCode": "KOR"
-        }
-      },
-  ],
+   "totalRecords": 53,
+   "excludedEntity": [
+       {
+         "exclusionDetails": {
+           "classificationType": "Firm",
+           "exclusionType": "Ineligible (Proceedings Completed)",
+           "exclusionProgram": "Reciprocal",
+           "excludingAgencyCode": "ARMY",
+           "excludingAgencyName": "DEPT OF THE ARMY"
+         },
+         "exclusionIdentification": {
+           "ueiSAM": "DLNLH2TNC7W4",
+           "ueiDUNS": "689515241",
+           "entityEFTIndicator": "Currently Not Available",
+           "cageCode": "741CF",
+           "npi": "",
+           "prefix": "",
+           "firstName": "",
+           "middleName": "",
+           "lastName": "",
+           "suffix": "",
+           "entityName": "ENOCH INTERNATIONAL",
+           "dnbOpenData": "Yes"
+         },
+         "exclusionAddress": {
+           "addressLine1": "20 - 4 HOENAMU-RO 13-GIL, YONGSAN-GU",
+           "addressLine2": "",
+           "city": "SEOUL",
+           "stateOrProvinceCode": "",
+           "zipCode": "04344",
+           "zipCodePlus4": null,
+           "countryCode": "KOR"
+         }
+       },
+   ],
   "links": {
     "selfLink": "https://api.sam.gov/entity-information/v2/exclusions?api_key=REPLACE_WITH_API_KEY&ueiDUNS=!%E2%80%9D%E2%80%9D&q=(country=KOR%20OR%20country=CHN%20OR%20country=DEU)&classification=Firm&exclusionType=[Ineligible%20(Proceedings%20Completed)~Prohibition/Restriction]&includeSections=exclusionDetails,exclusionIdentification,exclusionAddress&isActive=true&page=0&size=10",
     "nextLink": "https://api.sam.gov/entity-information/v2/exclusions?api_key=REPLACE_WITH_API_KEY&ueiDUNS=!%E2%80%9D%E2%80%9D&q=(country=KOR%20OR%20country=CHN%20OR%20country=DEU)&classification=Firm&exclusionType=[Ineligible%20(Proceedings%20Completed)~Prohibition/Restriction]&includeSections=exclusionDetails,exclusionIdentification,exclusionAddress&isActive=true&page=1&size=10"
@@ -378,11 +379,26 @@ Note: Public Response for one record is provided as an example <br>
 
 <details>
 <summary>Response</summary>
-Click to view CSV Response for one record <a href="v1/ExclusionAPI-FullCSV-OpenGSA.csv">Sample CSV Response</a><br>
+Click to view CSV Response for one record <a href="v1/Example3-FullCSV.xlsx">Sample CSV Response</a><br>
 </details>
 
 <p><small><a href="#">Back to top</a></small></p>
 
+### Example 4: To receive a link in the email to the Exclusions Extract in CSV format
+<details>
+<summary>Request URL</summary>
+<b>Production URL:</b>   https://api.sam.gov/entity-information/v2/exclusions?api_key=< a Public API Key >&classification=Firm&format=CSV&emailId=< a valid email address ><br>
+<br>
+<b>Alpha URL:</b>  https://api-alpha.sam.gov/entity-information/v2/exclusions?api_key=< a Public API Key >&classification=Firm&format=CSV&emailId=< a valid email address ><br>
+<br>
+</details>
+
+<details>
+<summary>Response</summary>
+Click to view CSV Response for one record <a href="v1/Example4-FullCSV.xlsx">Sample CSV Response</a><br>
+</details>
+
+<p><small><a href="#">Back to top</a></small></p>
 
 
 ## Additional Information
