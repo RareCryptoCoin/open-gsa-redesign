@@ -24,9 +24,16 @@ The response will be provided in the JSON format in a paginated manner.
 
 ## Getting Started
 
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">  COMING SOON:<br>
+  <ul>
+  <li style="color: #31708f;">https://api.sam.gov/entity-information/v2/api/exclusions?api_key=< value ></li>
+  </ul>
+ </div>
+ 
 Exclusions API can be accessed from Beta or Alpha via the following end points:
 * Beta: https://api.sam.gov/entity-information/v1/api/exclusions?api_key=< value >
-* Alpha: https://api-alpha.sam.gov/entity-information/v1/exclusions?api_key=< value ><br><br>
+* Alpha: https://api-alpha.sam.gov/entity-information/v1/exclusions?api_key=< value ><br>
+         https://api-alpha.sam.gov/entity-information/v2/exclusions?api_key=< value ><br><br>
 
 
 Generating a personal API Key:
@@ -316,38 +323,37 @@ Note: Public Response for one record is provided as an example <br>
 {
   "totalRecords": 53,
   "excludedEntity": [
-    {
-      "exclusionDetails": {
-        "classificationType": "Firm",
-        "exclusionType": "Ineligible (Proceedings Completed)",
-        "exclusionProgram": "Reciprocal",
-        "excludingAgencyCode": "AF",
-        "excludingAgencyName": "DEPT OF THE AIR FORCE"
+      {
+        "exclusionDetails": {
+          "classificationType": "Firm",
+          "exclusionType": "Ineligible (Proceedings Completed)",
+          "exclusionProgram": "Reciprocal",
+          "excludingAgencyCode": "ARMY",
+          "excludingAgencyName": "DEPT OF THE ARMY"
+        },
+        "exclusionIdentification": {
+          "ueiSAM": "DLNLH2TNC7W4",
+          "ueiDUNS": "689515241",
+          "entityEFTIndicator": "Currently Not Available",
+          "cageCode": "741CF",
+          "npi": "",
+          "prefix": "",
+          "firstName": "",
+          "middleName": "",
+          "lastName": "",
+          "suffix": "",
+          "name": "ENOCH INTERNATIONAL"
+        },
+        "exclusionAddress": {
+          "addressLine1": "20 - 4 HOENAMU-RO 13-GIL, YONGSAN-GU",
+          "addressLine2": "",
+          "city": "SEOUL",
+          "stateOrProvinceCode": "",
+          "zipCode": "04344",
+          "zipCodePlus4": null,
+          "countryCode": "KOR"
+        }
       },
-      "exclusionIdentification": {
-        "ueiSAM": null,
-        "ueiDUNS": "",
-        "entityEFTIndicator": null,
-        "cageCode": "",
-        "npi": "",
-        "prefix": "",
-        "firstName": "",
-        "middleName": "",
-        "lastName": "",
-        "suffix": "",
-        "entityName": "SHENZHEN HONGDARK ELECTRONICS CO., LTD."
-        “dnbOpenData”: “N”
-      },
-      "exclusionAddress": {
-        "addressLine1": "",
-        "addressLine2": "",
-        "city": "CITY",
-        "stateOrProvinceCode": "",
-        "zipCode": "",
-        "zipCodePlus4": null,
-        "countryCode": "ABC"
-      }
-    },
   ],
   "links": {
     "selfLink": "https://api.sam.gov/entity-information/v2/exclusions?api_key=REPLACE_WITH_API_KEY&ueiDUNS=!%E2%80%9D%E2%80%9D&q=(country=KOR%20OR%20country=CHN%20OR%20country=DEU)&classification=Firm&exclusionType=[Ineligible%20(Proceedings%20Completed)~Prohibition/Restriction]&includeSections=exclusionDetails,exclusionIdentification,exclusionAddress&isActive=true&page=0&size=10",
@@ -370,7 +376,7 @@ Note: Public Response for one record is provided as an example <br>
 
 <details>
 <summary>Response</summary>
-Click to view CSV Response for one record <a href="v1/exclusion-sample-csv.xlsx">Sample CSV Response</a><br>
+Click to view CSV Response for one record <a href="v1/ExclusionAPI-FullCSV-OpenGSA.csv">Sample CSV Response</a><br>
 </details>
 
 <p><small><a href="#">Back to top</a></small></p>
@@ -407,5 +413,5 @@ Date | Version | Description
 12/20/2019 | v1.4 | Added "COMING SOON" section for upcoming changes to Alpha and Beta endpoints to meet new API standards.
 02/25/2020 | v1.5 | * Added Examples for v2 requests and responses. <br><br> * Updated Alpha endpoint to meet new API standards.
 02/28/2020 | v1.5 | * Updated Beta endpoint to meet new API standards. <br><br> * Removed "COMING SOON" information in Getting Started section.
-
+03/13/2020 | v1.6 | * Updated Content and examples for V2. <br><br> * Added "COMING SOON" section for upcoming changes to Beta V2 endpoint.
 <p><small><a href="#">Back to top</a></small></p>

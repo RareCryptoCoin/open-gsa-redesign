@@ -1,0 +1,16 @@
+classificationType,exclusionType,exclusionProgram,excludingAgencyCode,excludingAgencyName,ueiSAM,ueiDUNS,entityEFTIndicator,cageCode,npi,prefix,firstName,middleName,lastName,suffix,name,addressLine1,addressLine2,city,stateOrProvinceCode,zipCode,zipCodePlus4,countryCode
+Firm,Ineligible (Proceedings Completed),Reciprocal,AF,DEPT OF THE AIR FORCE,LZPPRRE6QCZ6,545265423,Currently Not Available,,,,,,,,HONG DARK ELECTRONIC TRADE COMPANY,"RM 2D, SECTOR 10",,SHENZHEN,Guangdong,51802,6,CHN
+Firm,Ineligible (Proceedings Completed),Reciprocal,ARMY,DEPT OF THE ARMY,HJZMVBATDZD6,631092061,Currently Not Available,,,,,,,,"SEEDTEC CO., INC.","257-12 HANGANGNO 1(IL)-GA, YONGSAN-GU",,SEOUL,SEOUL,14001,1,KOR
+Firm,Ineligible (Proceedings Completed),Reciprocal,ARMY,DEPT OF THE ARMY,HJZMVBATDZD6,631092061,Currently Not Available,,,,,,,,"SEEDTEC CO., INC.","257-12 HANGANGNO 1(IL)-GA, YONGSAN-GU",,SEOUL,SEOUL,14001,1,KOR
+Firm,Ineligible (Proceedings Completed),Reciprocal,ARMY,DEPT OF THE ARMY,DB8QJSJWASJ3,688308766,Currently Not Available,,,,,,,,KOLINE E&T CORPORATION,"9 INDEOGWON-RO 30BEON-GIL, DONGAN-GU",,ANYANG,,43184,6,KOR
+Firm,Ineligible (Proceedings Completed),Reciprocal,ARMY,DEPT OF THE ARMY,C91KWUBWWNU3,557806201,Currently Not Available,,,,,,,,"SAMJU ELECTRONICS CO., LTD.","118 DONGBUK-RO, BUK-GU",,TAEGU,,41533, ,KOR
+Firm,Ineligible (Proceedings Completed),Reciprocal,ARMY,DEPT OF THE ARMY,VYF9KH33ECW9,690438668,Currently Not Available,,,,,,,,"SINSUNG LOGISTICS CO., LTD.",CHILGOK-RI,,ANSONG,,17555, ,KOR
+Firm,Ineligible (Proceedings Completed),Reciprocal,ARMY,DEPT OF THE ARMY,U3BZNA9653A9,687952481,Currently Not Available,,,,,,,,"AHJIN TRANSPORTATION CO.,LTD",3/F,,SEOUL,,140 8,72,KOR
+Firm,Ineligible (Proceedings Completed),Reciprocal,ARMY,DEPT OF THE ARMY,LFQQHQG4YQQ3,689155604,Currently Not Available,,,,,,,,"SUNGWOO E&C CO., LTD.","11 BAUBAEGI 2-GIL, WANSAN-GU",,CHONJU,,54966, ,KOR
+Firm,Ineligible (Proceedings Completed),Reciprocal,ARMY,DEPT OF THE ARMY,DLNLH2TNC7W4,689515241,Currently Not Available,741CF,,,,,,,ENOCH INTERNATIONAL,"20 - 4 HOENAMU-RO 13-GIL, YONGSAN-GU",,SEOUL,,4344, ,KOR
+Firm,Ineligible (Proceedings Completed),Reciprocal,DOS,"STATE, DEPARTMENT OF",VRLUEFXA8DM4,688379794,Currently Not Available,167AF,,,,,,,"IN-TEC CONSTRUCTION CO.,","85 - 4 YOPUNG-GIL, TANHYEON-MYEON",,PAJU,,10862, ,KOR
+Firm,Ineligible (Proceedings Completed),Reciprocal,DOS,"STATE, DEPARTMENT OF",XNMZDS43GS46,688323823,Currently Not Available,,,,,,,,CHANG-HA SERVICE & CONSTRUCTION,"39 SEGEOMJEONG-RO 1-GIL, SEODAEMUN-GU",,SEOUL,,3615, ,KOR
+Firm,Ineligible (Proceedings Completed),Reciprocal,DOS,"STATE, DEPARTMENT OF",NTMRXEJDH477,631033750,Currently Not Available,,,,,,,,HAN BO INDUSTRIAL CO.,15 HANGANG-DAERO 40GA-GIL YONGSAN-GU,,SEOUL,,4382, ,KOR
+Firm,Ineligible (Proceedings Completed),Reciprocal,DOS,"STATE, DEPARTMENT OF",V66DVA7N18F8,557795766,Currently Not Available,424AF,,,,,,,JIN YANG UTILITY CO.,RM 3-101,,INCHON,,22832, ,KOR
+Firm,Ineligible (Proceedings Completed),Reciprocal,DOS,"STATE, DEPARTMENT OF",GLQ2BP8Y8FP9,631128936,Currently Not Available,386AF,,,,,,,MANSE CONSTRUCTION,"26 GEOMA-RO 2-GIL, SONGPA-GU",,SEOUL,,5768, ,KOR
+Firm,Ineligible (Proceedings Completed),Reciprocal,ARMY,DEPT OF THE ARMY,NA67ZD94JD96,688146921,Currently Not Available,,,,,,,,NEWSHINIL.INC,DAENEUNG-RI,,PAJU,,10826, ,KOR
