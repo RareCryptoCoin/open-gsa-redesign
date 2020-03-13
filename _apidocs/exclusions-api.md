@@ -26,7 +26,7 @@ The response will be provided in the JSON format in a paginated manner.
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">  COMING SOON:<br>
   <ul>
-  <li style="color: #31708f;">https://api.sam.gov/entity-information/v2/api/exclusions?api_key=< value ></li>
+  <li style="color: #31708f;">https://api.sam.gov/entity-information/v2/exclusions?api_key=< value ></li>
   </ul>
  </div>
  
