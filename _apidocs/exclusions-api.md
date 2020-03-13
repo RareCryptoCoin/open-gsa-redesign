@@ -430,7 +430,7 @@ Date | Version | Description
 11/25/2019 | v1.3 | * Added D&B Disclaimer in the Additional Information section.<br><br> * Updated the specifications to include parameters and fields that will be included in v2 of the API.
 12/20/2019 | v1.4 | Added "COMING SOON" section for upcoming changes to Alpha and Beta endpoints to meet new API standards.
 02/25/2020 | v1.5 | * Added Examples for v2 requests and responses. <br><br> * Updated Alpha endpoint to meet new API standards.
-02/28/2020 | v1.5 | * Updated Beta endpoint to meet new API standards. <br><br> * Removed "COMING SOON" information in Getting Started section.
-03/13/2020 | v1.6 | * Updated Content and examples for V2. <br><br> * Added "COMING SOON" section for upcoming changes to Beta V2 endpoint.
+02/28/2020 | v1.6 | * Updated Beta endpoint to meet new API standards. <br><br> * Removed "COMING SOON" information in Getting Started section.
+03/13/2020 | v1.7 | * Updated Content and examples for V2. <br><br> * Added "COMING SOON" section for upcoming changes to Beta V2 endpoint.
 
 <p><small><a href="#">Back to top</a></small></p>
