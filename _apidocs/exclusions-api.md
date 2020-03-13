@@ -432,4 +432,5 @@ Date | Version | Description
 02/25/2020 | v1.5 | * Added Examples for v2 requests and responses. <br><br> * Updated Alpha endpoint to meet new API standards.
 02/28/2020 | v1.5 | * Updated Beta endpoint to meet new API standards. <br><br> * Removed "COMING SOON" information in Getting Started section.
 03/13/2020 | v1.6 | * Updated Content and examples for V2. <br><br> * Added "COMING SOON" section for upcoming changes to Beta V2 endpoint.
+
 <p><small><a href="#">Back to top</a></small></p>
