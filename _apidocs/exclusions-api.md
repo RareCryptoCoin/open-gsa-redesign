@@ -32,8 +32,9 @@ The response will be provided in the JSON format in a paginated manner.
  
 Exclusions API can be accessed from Beta or Alpha via the following end points:
 * Beta: https://api.sam.gov/entity-information/v1/api/exclusions?api_key=< value >
-* Alpha: https://api-alpha.sam.gov/entity-information/v1/exclusions?api_key=< value ><br>
-         https://api-alpha.sam.gov/entity-information/v2/exclusions?api_key=< value ><br><br>
+* Alpha:
+1. https://api-alpha.sam.gov/entity-information/v1/exclusions?api_key=< value ><br>
+2. https://api-alpha.sam.gov/entity-information/v2/exclusions?api_key=< value ><br><br>
 
 
 Generating a personal API Key:
