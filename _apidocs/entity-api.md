@@ -93,7 +93,7 @@ If you are using Chrome, subsections that can be expanded are denoted with an ar
 <br>Example: samRegistered=Yes
 <br> NOTE 1:  If this search parameter is not used, then the API will return SAM registrants only (samRegistered=Yes) by default.
 <br> NOTE 2: This field also applies to non-SAM registrants.
-<br> Applicable to non-SAM registrants.</td>
+</td>
 <td>v2</td>
 </tr>
 
@@ -2710,7 +2710,7 @@ First Name</td>
 <br>Example: samRegistered=Yes
 <br> NOTE 1:  If this search parameter is not used, then the API will return SAM registrants only (samRegistered=Yes) by default.
 <br> NOTE 2: This field also applies to non-SAM registrants.
-<br> Applicable to non-SAM registrants.</td>
+</td>
 <td>v2</td>
 </tr>
 
@@ -7206,7 +7206,7 @@ First Name</td>
 <br>Example: samRegistered=Yes
 <br> NOTE 1:  If this search parameter is not used, then the API will return SAM registrants only (samRegistered=Yes) by default.
 <br> NOTE 2: This field also applies to non-SAM registrants.
-<br> Applicable to non-SAM registrants.</td>
+</td>
 <td>v2</td>
 </tr>
 
