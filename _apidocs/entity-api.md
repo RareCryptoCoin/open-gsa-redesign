@@ -17940,7 +17940,7 @@ Click to view CSV Response for one record <a href="v1/entity-sample-csv.xlsx">Sa
 <b>Alpha URL:</b>  https://api-alpha.sam.gov/entity-information/v1/entities-sensitive?< Optional Search Parameters >
 <br>
 Click to view Sample Authorization <a href="v1/API_AUTH.JPG">Sample API Authorization</a><br>
-Click to view Sample Header <a href="v1/apikey.PNG">Sample API Request Body</a><br>
+Click to view Sample Request Body <a href="v1/apikey.PNG">Sample API Request Body</a><br>
 </details>
 
 ### An example of the Entity Management Extract API POST call using Postman
@@ -17951,7 +17951,7 @@ Click to view Sample Header <a href="v1/apikey.PNG">Sample API Request Body</a><
 <b>Alpha URL:</b>  https://api-alpha.sam.gov/entity-information/v1/entities-sensitive?< Optional Search Parameters >&format=< CSV OR JSON >
 <br>
 Click to view Sample Authorization <a href="v1/EXT_AUTH.JPG">Sample Extract Authorization</a><br>
-Click to view Sample Header <a href="v1/EXT_HEADER.JPG">Sample Extract Header</a><br>
+Click to view Sample Request Body <a href="v1/apikey.PNG">Sample Extract Request Body</a><br>
 </details>
 
 <p><small><a href="#">Back to top</a></small></p>
