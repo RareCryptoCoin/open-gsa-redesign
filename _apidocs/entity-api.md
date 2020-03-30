@@ -7196,6 +7196,7 @@ First Name</td>
 <ol>
   <li>All requests must be sent as POST calls using clients like Postman. These requests cannot be sent through browsers.</li>
   <li>The System Account User ID and Password must be sent as "Basic Auth" under "Authorization", and the combination needs to be base 64 encoded.</li>
+  <li>The Sensitive api_key parameter with its value must be sent in the "Headers", and not directly in the request URL.</li>
   <li>All the optional search filters can be sent in the request URL or in the "Body".</li>
 </ol> 
 </details>
