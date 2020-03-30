@@ -12733,7 +12733,7 @@ Note: FOUO Response for one record is provided as an example <br>
         "noPublicDisplayFlag": "F",
         "exclusionStatusFlag": null,
         "exclusionURL": null
-        "dnbOpenData": "N"
+        "dnbOpenData": "No"
       },
       "coreData": {
         "entityHierarchyInformation": {
@@ -13411,7 +13411,7 @@ Note: FOUO Response for one record is provided as an example <br>
         "noPublicDisplayFlag": "F",
         "exclusionStatusFlag": null,
         "exclusionURL": null,
-        "dnbOpenData": "N"
+        "dnbOpenData": "No"
       },
       "coreData": {
         "entityHierarchyInformation": {
@@ -14048,7 +14048,7 @@ Note: Response for one record is provided as an example <br>
         "ueiStatus": "Active",
         "ueiExpirationDate": "2022-01-01",
         "ueiCreationDate": "2020-02-06",
-        "dnbOpenData": "N"
+        "dnbOpenData": "No"
       },
       "coreData": {
         "physicalAddress": {
@@ -15415,7 +15415,7 @@ Note: Response for one record is provided as an example <br>
         "noPublicDisplayFlag": "F",
         "exclusionStatusFlag": null,
         "exclusionURL": null
-        "dnbOpenData": "N"
+        "dnbOpenData": "No"
       },
       "coreData": {
         "entityHierarchyInformation": {
@@ -16639,7 +16639,7 @@ Note: Response for one record is provided as an example <br>
         "noPublicDisplayFlag": "NPDY",
         "exclusionStatusFlag": null,
         "exclusionURL": null
-        "dnbOpenData": "N"
+        "dnbOpenData": "No"
       },
       "coreData": {
         "entityHierarchyInformation": {
