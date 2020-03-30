@@ -76,6 +76,7 @@ Utilizing the Entity API as an extract:
 
 If you are using Chrome, subsections that can be expanded are denoted with an arrow.
 
+
 ### Public API Information
 
 <details>
@@ -7190,6 +7191,11 @@ First Name</td>
 </details>
 
 ### Sensitive API Information
+
+* All requests must be sent as POST calls using clients like Postman. These requests cannot be sent through browsers
+* The System Account User ID and Password must be sent as "Basic Auth" under "Authorization", and the combination needs to be base 64 encoded.
+* The Sensitive api_key parameter with its value must be sent in the "Headers", and not directly in the request URL.
+* All the optional search filters can be sent in the request URL or in the "Body".
 
 <details>
 <summary><b>Query String Parameters</b></summary>
