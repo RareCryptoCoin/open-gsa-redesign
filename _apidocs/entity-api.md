@@ -17932,32 +17932,24 @@ Note: Response for one record is provided as an example <br>
 Click to view CSV Response for one record <a href="v1/entity-sample-csv.xlsx">Sample CSV Response</a><br>
 </details>
 
-### Example 13:  An example of the Entity Management API POST call using Postman
+### An example of the Entity Management API POST call using Postman
 <details>
 <summary>Request URL</summary>
 <b>Production URL:</b>  https://api.sam.gov/entity-information/v1/entities-sensitive?< Optional Search Parameters >
 <br>
 <b>Alpha URL:</b>  https://api-alpha.sam.gov/entity-information/v1/entities-sensitive?< Optional Search Parameters >
 <br>
-</details>
-
-<details>
-<summary>Response</summary>
 Click to view Sample Authorization <a href="v1/API_AUTH.JPG">Sample API Authorization</a><br>
 Click to view Sample Header <a href="v1/API_HEADER.JPG">Sample API Header</a><br>
 </details>
 
-### Example 14:  An example of the Entity Management Extract API POST call using Postman
+### An example of the Entity Management Extract API POST call using Postman
 <details>
 <summary>Request URL</summary>
 <b>Production URL:</b>  https://api.sam.gov/entity-information/v1/entities-sensitive?< Optional Search Parameters >&format=< CSV OR JSON >
 <br>
 <b>Alpha URL:</b>  https://api-alpha.sam.gov/entity-information/v1/entities-sensitive?< Optional Search Parameters >&format=< CSV OR JSON >
 <br>
-</details>
-
-<details>
-<summary>Response</summary>
 Click to view Sample Authorization <a href="v1/EXT_AUTH.JPG">Sample Extract Authorization</a><br>
 Click to view Sample Header <a href="v1/EXT_HEADER.JPG">Sample Extract Header</a><br>
 </details>

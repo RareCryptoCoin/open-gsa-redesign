@@ -237,10 +237,8 @@ The layout of the Exclusions extract is available here: <br>
 Click to view the full details of the revised extract layout for the upcoming UEI/EVS changes:<a href="v1/SAM_Exclusions_Public_V2_Extract_Layout.pdf">Exclusions Extract Layout</a><br>
 
 **An example of the Sensitive extract download POST call using Postman:**<br>
-Request URL:<br>
-https://api.sam.gov/data-services/v1/extracts-sensitive?fileName=<name of the file><br>
-
-**Expected Response**:
+Request URL:
+https://api.sam.gov/data-services/v1/extracts-sensitive?fileName=< name of the file ><br>
 Click to view Sample Authorization <a href="v1/DOWNLOAD_API_AUTH.JPG">Sample Extract Authorization</a><br>
 Click to view Sample Header <a href="v1/DOWNLOAD_API_HEADER.JPG">Sample Extract Header</a><br>
 
