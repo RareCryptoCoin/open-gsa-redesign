@@ -57,6 +57,15 @@ The Entity and Exclusion extracts are available using the following endpoints:
  
   * Beta: https://api.sam.gov/data-services/v1/extracts?api_key= < value >
   * Alpha: https://api-alpha.sam.gov/data-services/v1/extracts?api_key= < value ><br><br>
+  
+   <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
+     Process change for the Sensitive Download API is coming soon. <br> 
+     Sample POST endpoints are provided below: <br>
+     <ul>
+     <li style="color: #31708f;">Beta: https://api.sam.gov/data-services/v1/extracts-sensitive?fileName=SAM_SENSITIVE_DAILY_V2_20190523.ZIP </li>
+     <li style="color: #31708f;">Alpha: https://api-alpha.sam.gov/data-services/v1/extracts-sensitive?fileName=SAM_SENSITIVE_DAILY_V2_20190523.ZIP </li>
+     </ul>
+    </div>
      
 Generating a personal API Key:
 * Registered users can request for a public API on ‘Account Details’ page. This page can be accessed here: Account Details page on beta.sam.gov
@@ -137,6 +146,13 @@ Examples: 04/19/2019; 11/15/2018; 03/2019
 </td>
 </tr>
 </table>
+
+### Sensitive Download API Process
+
+* All requests must be sent as POST calls using clients like Postman. These requests cannot be sent through browsers.
+* The System Account User ID and Password must be sent as "Basic Auth" under "Authorization", and the combination needs to be base 64 encoded.
+* The Sensitive api_key parameter with its value must be sent in the "Headers", and not directly in the request URL.
+* All the optional search filters can be sent in the request URL or in the "Body".
 
 ### Explanation of the API using Examples
 
@@ -220,6 +236,14 @@ https://api.sam.gov/data-services/v1/extracts?api_key={API_KEY}&fileType=EXCLUSI
 The layout of the Exclusions extract is available here: <br>
 Click to view the full details of the revised extract layout for the upcoming UEI/EVS changes:<a href="v1/SAM_Exclusions_Public_V2_Extract_Layout.pdf">Exclusions Extract Layout</a><br>
 
+**An example of the Sensitive extract download POST call using Postman:**<br>
+Request URL:<br>
+https://api.sam.gov/data-services/v1/extracts-sensitive?fileName=<name of the file><br>
+
+**Expected Response**:
+Click to view Sample Authorization <a href="v1/DOWNLOAD_API_AUTH.JPG">Sample Extract Authorization</a><br>
+Click to view Sample Header <a href="v1/DOWNLOAD_API_HEADER.JPG">Sample Extract Header</a><br>
+
 **Sample File Names:**<br>
 
 * FOUO files: 
@@ -285,6 +309,7 @@ Date | Version | Description
 08/15/2019 | v 1.1 | * Added Beta.SAM.Gov to the page title. <br><br>* Clarified the Alpha and Beta endpoints.
 12/20/2019 | v 1.2 | * Added Sample FOUO and Sensitive File Names and Revised extract layouts for the upcoming UEI/EVS changes. <br><br> * Added "COMING SOON" section for upcoming changes to Alpha and Beta endpoints to meet new API standards.
 02/25/2020 | v1.3 | * Updated Alpha endpoint to meet new API standards.<br><br> * Added Sample Extract Files.
-02/28/2020 | v1.3 | * Updated Beta endpoint to meet new API standards.<br><br> * Removed "COMING SOON" information in Getting Started section. <br><br> * Added FOUO and Sensitive Sample Extract Files for different versions.
+02/28/2020 | v1.4 | * Updated Beta endpoint to meet new API standards.<br><br> * Removed "COMING SOON" information in Getting Started section. <br><br> * Added FOUO and Sensitive Sample Extract Files for different versions.
+03/29/2020 | v1.5 | * Added "COMING SOON" information and Example for Sensitive Download API in Getting Started section.
 
 <p><small><a href="#">Back to top</a></small></p>

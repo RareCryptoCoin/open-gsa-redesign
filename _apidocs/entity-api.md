@@ -7,8 +7,7 @@ banner-heading: Beta.SAM.Gov Entity Management API
 
 This content is currently not Firefox compliant.  Please access via Chrome or Internet Explorer.
 ## Overview
-The Entity Management API will allow users to request Public Entity Information based on various optional request parameters. 
-
+The Entity Management API will allow users to request Entity Information based on various optional request parameters.
 
 **Key Features of the Entity Management API:**
 
@@ -34,7 +33,17 @@ Public and FOUO Entity Details can be accessed from Beta or Alpha via the follow
 Sensitive Entity Details can be accessed from Beta or Alpha via the following end points:
    * Beta: Coming soon
    * Alpha: https://api-alpha.sam.gov/entity-information/v1/entities?api_key= < value ><br><br>
-
+   
+   <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
+     Process change for the Sensitive Download API is coming soon. <br> 
+     Sample POST endpoints are provided below: <br>
+     <ul>
+     <li style="color: #31708f;">Beta: https://api.sam.gov/entity-information/v1/entities-sensitive?optional-filters </li>
+     <li style="color: #31708f;">Beta: https://api.sam.gov/entity-information/v1/entities-sensitive?optional-filters&format=< JSON or CSV > </li>     
+     <li style="color: #31708f;">Alpha: https://api-alpha.sam.gov/entity-information/v1/entities-sensitive?optional-filters </li>
+     <li style="color: #31708f;">Alpha: https://api-alpha.sam.gov/entity-information/v1/entities-sensitive?optional-filters&format=< JSON or CSV > </li>
+     </ul>
+    </div>
 
 Generating a personal API Key:
 * Registered users can request for a public API on 'Account Details' page. This page can be accessed here: <a href="https://beta.sam.gov/profile/details" target="_blank">Account Details page on beta.sam.gov</a>
@@ -80,9 +89,10 @@ If you are using Chrome, subsections that can be expanded are denoted with an ar
 
 <tr>
 <td>samRegistered</td>
-<td>Allows Y or N or ALL.
-<br>Example: samRegistered=Y
-<br> NOTE:  If not used the API will return SAM registrants only by default.
+<td>Allows Yes, No (both are case sensitive) or All (this is case insensitive, and returns both Yes and No).
+<br>Example: samRegistered=Yes
+<br> NOTE 1:  If this search parameter is not used, then the API will return SAM registrants only (samRegistered=Yes) by default.
+<br> NOTE 2: This field also applies to non-SAM registrants.
 <br> Applicable to non-SAM registrants.</td>
 <td>v2</td>
 </tr>
@@ -2696,9 +2706,10 @@ First Name</td>
 
 <tr>
 <td>samRegistered</td>
-<td>Allows Y or N or ALL.
-<br>Example: samRegistered=Y
-<br> NOTE:  If not used the API will return SAM registrants only by default.
+<td>Allows Yes, No (both are case sensitive) or All (this is case insensitive, and returns both Yes and No).
+<br>Example: samRegistered=Yes
+<br> NOTE 1:  If this search parameter is not used, then the API will return SAM registrants only (samRegistered=Yes) by default.
+<br> NOTE 2: This field also applies to non-SAM registrants.
 <br> Applicable to non-SAM registrants.</td>
 <td>v2</td>
 </tr>
@@ -7191,9 +7202,10 @@ First Name</td>
 
 <tr>
 <td>samRegistered</td>
-<td>Allows Y or N or ALL.
-<br>Example: samRegistered=Y
-<br> NOTE:  If not used the API will return SAM registrants only by default.
+<td>Allows Yes, No (both are case sensitive) or All (this is case insensitive, and returns both Yes and No).
+<br>Example: samRegistered=Yes
+<br> NOTE 1:  If this search parameter is not used, then the API will return SAM registrants only (samRegistered=Yes) by default.
+<br> NOTE 2: This field also applies to non-SAM registrants.
 <br> Applicable to non-SAM registrants.</td>
 <td>v2</td>
 </tr>
@@ -11979,7 +11991,7 @@ Note: FOUO Response for one record is provided as an example <br>
   "entityData": [
     {
       "entityRegistration": {
-       "samRegistered": "Y",
+       "samRegistered": "Yes",
         "ueiSAM": "F7SEZJMNRYN1",
         "ueiDUNS": "116766843",
         "entityEFTIndicator": null,
@@ -12000,7 +12012,7 @@ Note: FOUO Response for one record is provided as an example <br>
         "noPublicDisplayFlag": "F",
         "exclusionStatusFlag": null,
         "exclusionURL": null,
-        "dnbOpenData": "Y"
+        "dnbOpenData": "Yes"
       },
       "coreData": {
         "entityHierarchyInformation": {
@@ -12619,7 +12631,7 @@ Note: FOUO Response for one record is provided as an example <br>
   "entityData": [
     {
       "entityRegistration": {
-        "samRegistered": "Y",
+        "samRegistered": "Yes",
         "ueiSAM": " F7SEZJMNRYN1",
         "ueiDUNS": "075211119",
         "entityEFTIndicator": null,
@@ -12640,12 +12652,12 @@ Note: FOUO Response for one record is provided as an example <br>
         "noPublicDisplayFlag": "F",
         "exclusionStatusFlag": null,
         "exclusionURL": null
-        "dnbOpenData": "Y"
+        "dnbOpenData": "Yes"
       }
     },
     {
       "entityRegistration": {
-        "samRegistered": "Y",
+        "samRegistered": "Yes",
         "ueiSAM": " F7SEZJMNRYN1",
         "ueiDUNS": "081296509",
         "entityEFTIndicator": null,
@@ -12666,7 +12678,7 @@ Note: FOUO Response for one record is provided as an example <br>
         "noPublicDisplayFlag": "F",
         "exclusionStatusFlag": null,
         "exclusionURL": null
-        "dnbOpenData": "Y"
+        "dnbOpenData": "Yes"
       }
     }
 ],
@@ -12700,7 +12712,7 @@ Note: FOUO Response for one record is provided as an example <br>
   "entityData": [
     {
       "entityRegistration": {
-        "samRegistered": "Y",
+        "samRegistered": "Yes",
         "ueiSAM": " F7SEZJMNRYN1",
         "ueiDUNS": "557905982",
         "entityEFTIndicator": null,
@@ -13378,7 +13390,7 @@ Note: FOUO Response for one record is provided as an example <br>
   "entityData": [
     {
       "entityRegistration": {
-        "samRegistered": "Y",
+        "samRegistered": "Yes",
         "ueiSAM": " F7SEZJMNRYN1",
         "ueiDUNS": "561349642",
         "entityEFTIndicator": null,
@@ -14088,7 +14100,7 @@ Note: Response for one record is provided as an example <br>
   "entityData": [
     {
       "entityRegistration": {
-        "samRegistered": "Y",
+        "samRegistered": "Yes",
         "ueiSAM": " F7SEZJMNRYN1",
         "ueiDUNS": "075211119",
         "entityEFTIndicator": null,
@@ -14109,7 +14121,7 @@ Note: Response for one record is provided as an example <br>
         "noPublicDisplayFlag": "F",
         "exclusionStatusFlag": null,
         "exclusionURL": null
-        "dnbOpenData": "Y"
+        "dnbOpenData": "Yes"
       },
       "coreData": {
         "entityHierarchyInformation": {
@@ -14769,7 +14781,7 @@ Note: Response for one record is provided as an example <br>
   "entityData": [
     {
       "entityRegistration": {
-       "samRegistered": "Y",
+       "samRegistered": "Yes",
         "ueiSAM": " F7SEZJMNRYN1",
         "ueiDUNS": "081343434",
         "entityEFTIndicator": null,
@@ -14790,7 +14802,7 @@ Note: Response for one record is provided as an example <br>
         "noPublicDisplayFlag": "F",
         "exclusionStatusFlag": null,
         "exclusionURL": null
-        "dnbOpenData": "Y"
+        "dnbOpenData": "Yes"
       },
       "coreData": {
         "entityHierarchyInformation": {
@@ -15382,7 +15394,7 @@ Note: Response for one record is provided as an example <br>
   "entityData": [
     {
       "entityRegistration": {
-        "samRegistered": "Y",
+        "samRegistered": "Yes",
         "ueiSAM": " F7SEZJMNRYN1",
         "ueiDUNS": "439307625",
         "entityEFTIndicator": null,
@@ -15994,7 +16006,7 @@ Note: Response for one record is provided as an example <br>
   "entityData": [
     {
       "entityRegistration": {
-        "samRegistered": "Y",
+        "samRegistered": "Yes",
         "ueiSAM": " F7SEZJMNRYN1",
         "ueiDUNS": "081270422",
         "entityEFTIndicator": null,
@@ -16015,7 +16027,7 @@ Note: Response for one record is provided as an example <br>
         "noPublicDisplayFlag": "F",
         "exclusionStatusFlag": null,
         "exclusionURL": null
-        "dnbOpenData": "Y"
+        "dnbOpenData": "Yes"
       },
       "coreData": {
         "entityHierarchyInformation": {
@@ -16606,7 +16618,7 @@ Note: Response for one record is provided as an example <br>
   "entityData": [
     {
       "entityRegistration": {
-        "samRegistered": "Y",
+        "samRegistered": "Yes",
         "ueiSAM": " F7SEZJMNRYN1",
         "ueiDUNS": "080192883",
         "entityEFTIndicator": null,
@@ -17218,7 +17230,7 @@ Note: Response for one record is provided as an example <br>
   "entityData": [
     {
       "entityRegistration": {
-        "samRegistered": "Y",
+        "samRegistered": "Yes",
         "ueiSAM": " F7SEZJMNRYN1",
         "ueiDUNS": "079870954",
         "entityEFTIndicator": null,
@@ -17239,7 +17251,7 @@ Note: Response for one record is provided as an example <br>
         "noPublicDisplayFlag": "F",
         "exclusionStatusFlag": null,
         "exclusionURL": null
-        "dnbOpenData": "Y"
+        "dnbOpenData": "Yes"
       },
       "coreData": {
         "entityHierarchyInformation": {
@@ -17920,6 +17932,36 @@ Note: Response for one record is provided as an example <br>
 Click to view CSV Response for one record <a href="v1/entity-sample-csv.xlsx">Sample CSV Response</a><br>
 </details>
 
+### Example 13:  An example of the Entity Management API POST call using Postman
+<details>
+<summary>Request URL</summary>
+<b>Production URL:</b>  https://api.sam.gov/entity-information/v1/entities-sensitive?< Optional Search Parameters >
+<br>
+<b>Alpha URL:</b>  https://api-alpha.sam.gov/entity-information/v1/entities-sensitive?< Optional Search Parameters >
+<br>
+</details>
+
+<details>
+<summary>Response</summary>
+Click to view Sample Authorization <a href="v1/API_AUTH.JPG">Sample API Authorization</a><br>
+Click to view Sample Header <a href="v1/API_HEADER.JPG">Sample API Header</a><br>
+</details>
+
+### Example 14:  An example of the Entity Management Extract API POST call using Postman
+<details>
+<summary>Request URL</summary>
+<b>Production URL:</b>  https://api.sam.gov/entity-information/v1/entities-sensitive?< Optional Search Parameters >&format=< CSV OR JSON >
+<br>
+<b>Alpha URL:</b>  https://api-alpha.sam.gov/entity-information/v1/entities-sensitive?< Optional Search Parameters >&format=< CSV OR JSON >
+<br>
+</details>
+
+<details>
+<summary>Response</summary>
+Click to view Sample Authorization <a href="v1/EXT_AUTH.JPG">Sample Extract Authorization</a><br>
+Click to view Sample Header <a href="v1/EXT_HEADER.JPG">Sample Extract Header</a><br>
+</details>
+
 <p><small><a href="#">Back to top</a></small></p>
 
 ## Additional Information
@@ -17953,5 +17995,6 @@ Disclaimer:
 | 12/20/2019 | v1.4 | * Removed Email, Fax,US phone number and non-us phone number from public poc sections for v2. <br><br> * Added "COMING SOON" section for upcoming changes to Alpha and Beta endpoints to meet new API standards.|
 | 02/25/2020 | v1.5 | * Added Examples for v2 requests and responses.  <br><br> * Updated Alpha endpoint to meet new API standards.|
 | 02/28/2020 | v1.6 | * Updated Beta endpoint to meet new API standards. <br><br> * Removed "COMING SOON" information in Getting Started section.|
+| 03/29/2020 | v1.7 | * Added "COMING SOON" information and Examples for Sensitive Download API in Getting Started section.|
 
 <p><small><a href="#">Back to top</a></small></p>
